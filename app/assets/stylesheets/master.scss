@@ -13,6 +13,10 @@ body {
   background: image_url('dark-paths.png');
 }
 
+.navbar-toggler {
+    color: white;
+}
+
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
