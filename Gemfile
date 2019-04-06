@@ -70,6 +70,10 @@ gem 'devise'
 # Add Font Awesome gem
 gem "font-awesome-rails"
 
+gem "carrierwave", "~> 1.0"
+gem "fog-aws"
+gem "figaro"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
