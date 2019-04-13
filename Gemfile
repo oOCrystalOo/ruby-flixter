@@ -81,6 +81,8 @@ gem "stripe"
 gem "ranked-model"
 # Add jQuery ui for draggable
 gem "jquery-ui-rails"
+# Everything is awesome, everything is cool when your part of a team. Everything is awesome, when you're living out a dream 
+gem "font-awesome-rails"
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
