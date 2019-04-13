@@ -75,6 +75,9 @@ gem "carrierwave-aws"
 gem "figaro"
 gem "mini_magick"
 
+# Add Stripe gem for processing credit card info
+gem "stripe"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
