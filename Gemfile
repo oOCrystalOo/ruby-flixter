@@ -77,6 +77,10 @@ gem "mini_magick"
 
 # Add Stripe gem for processing credit card info
 gem "stripe"
+# Add ranked-model to help reorganize items in db
+gem "ranked-model"
+# Add jQuery ui for draggable
+gem "jquery-ui-rails"
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
