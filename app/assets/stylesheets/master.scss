@@ -152,6 +152,10 @@ ul .header .fa {
     cursor: move;
 }
 
+img {
+    max-height: 50vh;
+}
+
 @media screen and (min-width: 500px) {
   ul .header {
     font-size: 35px;
