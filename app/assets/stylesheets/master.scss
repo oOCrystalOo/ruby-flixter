@@ -11,10 +11,19 @@ body {
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: image_url('dark-paths.png');
+  display: block;
 }
 
 .navbar-toggler {
     color: white;
+}
+
+.nav-item .nav-link {
+    color: white;
+}
+
+.nav-item .nav-link:hover {
+    opacity: 0.5;
 }
 
 .navbar-inverse a.navbar-brand {
@@ -154,6 +163,29 @@ ul .header .fa {
 
 img {
     max-height: 50vh;
+    margin: auto;
+    display: block;
+}
+
+div.course_container {
+    padding: 10px;
+    margin: 15px 10px;
+}
+
+div.course_container:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+div.course_container h2 a,
+div.course_container h3 a{
+    color: black;
+    text-decoration: none;
+}
+div.course_container h2 a:hover,
+div.course_container h2 a:active,
+div.course_container h3 a:hover,
+div.course_container h3 a:active {
+    color: #969696;
 }
 
 @media screen and (min-width: 500px) {

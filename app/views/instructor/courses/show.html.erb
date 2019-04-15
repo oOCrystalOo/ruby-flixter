@@ -98,18 +98,18 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <h4 class="modal-title" id="newSectionModalLabel">Add a New Section</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-        <h4 class="modal-title" id="newSectionModalLabel">Add a new section</h4>
       </div>
       <%= simple_form_for @section, url: instructor_course_sections_path(current_course) do |f| %>
         <div class="modal-body">
           <%= f.input :title %>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <%= f.submit "Add a Section" %>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <%= f.submit "Add Section", class: "btn btn-primary" %>
         </div>
       <% end %>
     </div>
@@ -121,10 +121,10 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <h4 class="modal-title" id="newLessonModalLabel">Add New Lesson</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
-        <h4 class="modal-title" id="newLessonModalLabel">Add New Lesson</h4>
       </div>
       <%= simple_form_for @lesson, url: '#', html: { id: "newLessonForm" } do |f| %>
         <div class="modal-body">
@@ -133,8 +133,8 @@
           <%= f.input :video %>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <%= f.submit "Add the Lesson" %>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          <%= f.submit "Add Lesson", class: "btn btn-primary" %>
         </div>
       <% end %>
     </div>
