@@ -6,8 +6,8 @@ Functional project can be viewed on http://flixter-crystal-ng.herokuapp.com
 ## Setup
 1. Clone the repository:
 ``` 
-git clone https://github.com/oOCrystalOo/ruby-nomster.git
-cd ruby-nomster
+git clone https://github.com/oOCrystalOo/ruby-flixter.git
+cd ruby-flixter
 ```
 	
 2. Install bundle, create a database, and run migration
